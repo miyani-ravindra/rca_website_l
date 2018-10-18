@@ -1,0 +1,8 @@
+composer.phar
+composer.lock
+/vendor/
+/demo/
+/tests/
+.idea
+.DS_Store
+releasenotes.md

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<inputelements>
+		<element>
+			<type>text</type>
+			<name>service_req_part_exhi[exhi_name]</name>
+			<label>Name</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+
+		<element>
+			<type>text</type>
+			<name>service_req_part_exhi[exhi_address]</name>
+			<label>Address</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder>Pre initialised text...</placeholder> -->
+		</element>
+		<!-- <element>
+			<type>dynamic_select_with_value</type>
+			<name>service_req_form_values</name>
+			<label>State</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<select_stmt>select agent_id id, concat(agent_code, '-', agent_name) value from agents where enabled = 'Y'</select_stmt>
+		</element> -->
+		<element>
+			<type>text</type>
+			<name>service_req_part_exhi[exhi_phone_no]</name>
+			<label>Phone no</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<onlynumber>yes</onlynumber>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+		<element>
+			<type>text</type>
+			<name>service_req_part_exhi[exhi_website]</name>
+			<label>Website</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+		<element>
+			<type>text</type>
+			<name>service_req_part_exhi[exhi_name_address]</name>
+			<label>Name and address of the Exhibition/trade fair</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+	</inputelements>
+</form>

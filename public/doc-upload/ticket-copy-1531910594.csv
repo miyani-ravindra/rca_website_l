@@ -1,0 +1,1134 @@
+p_id,nationality,product_id,product_type,product_name,serviced_by,inclusions,service_description,visa_entry,visa_validity,visa_duration,min_no_of_hrs,max_no_of_hrs,airport,airport_code,arrival_terminal,departure_terminal,travel_type,city,country,supplier,rate_application,currency,adult_cost_price,adult_cost_tax,child_cost_price,child_cost_tax,group_size_min,group_size_max,group_price,group_price_tax,exceptions,booking_cut_off,time_zone,service_charge_adult,total,service_tax_adult,service_charge_child,service_tax_child,service_tax_applicable_on,sales_cut_off,cancellation_time,cancellation_charges,discount,discount_amount,output_price,sac,cgst,sgst,igst,vat,booking_type,is_active
+1,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,120,,,,1,3,,,,24,+2 hrs,36,156,,,,,,,,,,,,,,,,Confirm,Y
+2,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,155,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+3,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,190,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+4,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,225,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+5,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,120,,,,1,3,,,,24,+2 hrs,36,156,,,,,,,,,,,,,,,,Confirm,Y
+6,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,155,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+7,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,190,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+8,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,225,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+9,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,200,,,,1,3,,,,24,+2 hrs,60,260,,,,,,,,,,,,,,,,Confirm,Y
+10,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,235,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+11,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,270,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+12,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,305,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+13,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,300,,,,1,3,,,,24,+2 hrs,90,390,,,,,,,,,,,,,,,,Confirm,Y
+14,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,335,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+15,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,370,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+16,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,405,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+17,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,300,,,,1,3,,,,24,+2 hrs,90,390,,,,,,,,,,,,,,,,Confirm,Y
+18,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,335,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+19,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,370,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+20,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,405,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+21,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control customs Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Per Person,Euro,800,,,,,,,,,24,+2 hrs,240,1040,,,,,,,,,,,,,,,,Confirm,Y
+22,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,2,2,835,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+23,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,3,3,870,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+24,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,905,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+25,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,940,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+26,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,975,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+27,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Per Person,Euro,800,,,,,,,,,24,+2 hrs,240,1040,,,,,,,,,,,,,,,,Confirm,Y
+28,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,2,2,835,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+29,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,3,3,870,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+30,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,905,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+31,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,940,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+32,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Charles De Gaulle,CDG,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,975,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+33,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,120,,,,1,3,,,,24,+2 hrs,36,156,,,,,,,,,,,,,,,,Confirm,Y
+34,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,155,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+35,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,190,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+36,All,2,Arrival,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Escort to the means of transport ",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,225,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+37,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,120,,,,1,3,,,,24,+2 hrs,36,156,,,,,,,,,,,,,,,,Confirm,Y
+38,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,155,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+39,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,190,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+40,All,2,Departure,VIP Fast Track,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,225,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+41,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,200,,,,1,3,,,,24,+2 hrs,60,260,,,,,,,,,,,,,,,,Confirm,Y
+42,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,235,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+43,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,270,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+44,All,2,Transit,VIP Fast Track,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage Tracking – Check the luggage transfer on board departure flight
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your connecting flight with priority boarding",,,,,,,Orly,ORY,,,All,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,305,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+45,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,300,,,,1,3,,,,24,+2 hrs,90,390,,,,,,,,,,,,,,,,Confirm,Y
+46,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,335,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+47,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,370,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+48,All,2,Arrival,VIP Premium,,"•	Our concierge waits the guest at the aerobridge
+•	Escort through border control and security checks with a priority access
+•	Baggage porterage (4 bags)
+•	Transfer to your hotel in Paris in Mercedes S Class",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,405,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+49,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,300,,,,1,3,,,,24,+2 hrs,90,390,,,,,,,,,,,,,,,,Confirm,Y
+50,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,335,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+51,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,370,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+52,All,2,Departure,VIP Premium,,"•	Pick up from your hotel in Paris in Mercedes S Class for your transfers to the airport
+•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Tax refund assistance and other airport assistance (if needed)
+•	Baggage porterage (max 4 bags) to check-in and obtain your boarding pass
+•	Escort through border control and security checks with a priority access
+•	Escort to the VIP airline lounge (if applicable) or directly to gate of your flight with priority boarding",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,405,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+53,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,800,,,,,,,,,24,+2 hrs,240,1040,,,,,,,,,,,,,,,,Confirm,Y
+54,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,2,2,835,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+55,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,3,3,870,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+56,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,905,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+57,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,940,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+58,All,2,Arrival,VIP Ultimate,,"•	Our concierge waits the guest at the door of the aircraft
+•	Runway transfers in limousine from aircraft to private lounge
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	While you will relax at the lounge, we collect transport your baggage from the baggage collection area to your lounge.",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,975,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+59,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,800,,,,,,,,,24,+2 hrs,240,1040,,,,,,,,,,,,,,,,Confirm,Y
+60,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,2,2,835,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+61,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,3,3,870,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+62,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,4,4,905,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+63,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,5,5,940,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+64,All,2,Departure,VIP Ultimate,,"•	Our concierge will meet the guest at the kerbside of the terminal your departing flight 
+•	Private lounge dedicated solely to your personal comfort: Dedicated greeting staff, self-service dining and drinks, a fully equipped personal office with wifi, wide selection of national and international newspaper
+•	All the formalities will be done at the private lounge (Passport control, customs, Securities) 
+•	Runway transfers in limousine from the private lounge to the aircraft",,,,,,,Orly,ORY,,,,Paris,France,La Cociegerie,Group,Euro,,,,,6,6,975,,,24,+2 hrs,0,0,,,,,,,,,,,,,,,,Confirm,Y
+65,All,3,Transit,Lounge,Pranaam,"•	Comfortable seating and sleeping pods
+•	Buffet Meals
+•	Select range of hot and cold beverages (non-alcoholic)
+•	Laptop station with Wi-Fi
+•	Baby Care Room
+•	Personal boarding alert
+•	Luggage storage area
+•	Wide range of reading material",,,,,0,6,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,2966,534,2076,374,,,,,,,"+ 5Hrs 30 Mins
+",296.6,3262.6,,207.6,,,,,,,,,,,,,,Confirm,Y
+66,All,3,Departure,Lounge,Pranaam,"•	Comfortable seating and sleeping pods
+•	Buffet Meals
+•	Select range of hot and cold beverages (non-alcoholic)
+•	Laptop station with Wi-Fi
+•	Baby Care Room
+•	Personal boarding alert
+•	Luggage storage area
+•	Wide range of reading material",,,,,0,2,Chhatrapati Shivaji International Airport,BOM,T2,,All,Mumbai,India,Pranaam,Per Person,INR,2000,1400,,,,,,,,,"+ 5Hrs 30 Mins
+",200,2200,,,,,,,,,,,,,,,,Confirm,Y
+67,All,3,Departure,Lounge,Pranaam,"•	Comfortable seating and sleeping pods
+•	Buffet Meals
+•	Select range of hot and cold beverages (non-alcoholic)
+•	Laptop station with Wi-Fi
+•	Baby Care Room
+•	Personal boarding alert
+•	Luggage storage area
+•	Wide range of reading material",,,,,0,4,Chhatrapati Shivaji International Airport,BOM,T2,,All,Mumbai,India,Pranaam,Per Person,INR,3000,2100,,,,,,,,,"+ 5Hrs 30 Mins
+",300,3300,,,,,,,,,,,,,,,,Confirm,Y
+68,All,3,Departure,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,1,3,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,144,7.2,,,,,,,,24,"+ 4Hrs
+",21.6,165.6,,,,,,,,,,,,,,,,Confirm,Y
+69,All,3,Departure,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,4,6,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,261,13.05,,,,,,,,24,"+ 4Hrs
+",39.15,300.15,,,,,,,,,,,,,,,,Confirm,Y
+70,All,3,Departure,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,1,3,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,180,9,,,,,,,,24,"+ 4Hrs
+",27,207,,,,,,,,,,,,,,,,Confirm,Y
+71,All,3,Departure,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,4,6,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,324,16.2,,,,,,,,24,"+ 4Hrs
+",48.6,372.6,,,,,,,,,,,,,,,,Confirm,Y
+72,All,3,Departure,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,1,3,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,144,7.2,,,,,,,,24,"+ 4Hrs
+",21.6,165.6,,,,,,,,,,,,,,,,Confirm,Y
+73,All,3,Departure,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,4,6,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,261,13.05,,,,,,,,24,"+ 4Hrs
+",39.15,300.15,,,,,,,,,,,,,,,,Confirm,Y
+74,All,3,Departure,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,1,3,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,180,9,,,,,,,,24,"+ 4Hrs
+",27,207,,,,,,,,,,,,,,,,Confirm,Y
+75,All,3,Departure,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,4,6,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,324,16.2,,,,,,,,24,"+ 4Hrs
+",48.6,372.6,,,,,,,,,,,,,,,,Confirm,Y
+76,All,3,Transit,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,1,3,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,144,7.2,,,,,,,,24,"+ 4Hrs
+",21.6,165.6,,,,,,,,,,,,,,,,Confirm,Y
+77,All,3,Transit,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,4,6,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,261,13.05,,,,,,,,24,"+ 4Hrs
+",39.15,300.15,,,,,,,,,,,,,,,,Confirm,Y
+78,All,3,Transit,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,1,3,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,180,9,,,,,,,,24,"+ 4Hrs
+",27,207,,,,,,,,,,,,,,,,Confirm,Y
+79,All,3,Transit,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,4,6,Abu Dhabi International Airport,AUH,T1,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,324,16.2,,,,,,,,24,"+ 4Hrs
+",48.6,372.6,,,,,,,,,,,,,,,,Confirm,Y
+80,All,3,Transit,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,1,3,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,144,7.2,,,,,,,,24,"+ 4Hrs
+",21.6,165.6,,,,,,,,,,,,,,,,Confirm,Y
+81,All,3,Transit,Lounge,Al Dhabi,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Children’s Play Room
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material
+•	Dedicated smoking room",,,,,4,6,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,261,13.05,,,,,,,,24,"+ 4Hrs
+",39.15,300.15,,,,,,,,,,,,,,,,Confirm,Y
+82,All,3,Transit,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,1,3,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,180,9,,,,,,,,24,"+ 4Hrs
+",27,207,,,,,,,,,,,,,,,,Confirm,Y
+83,All,3,Transit,Lounge,Al Reem,"•	Comfortable seating
+•	Buffet Meals
+•	Select range of hot and cold beverages (alcoholic and non-alcoholic)
+•	Hot shower facility
+•	Business facilities
+•	Complimentary Wi-Fi
+•	Entertainment facility
+•	Prayer Room
+•	Wide range of reading material",,,,,4,6,Abu Dhabi International Airport,AUH,T3,,,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,324,16.2,,,,,,,,24,"+ 4Hrs
+",48.6,372.6,,,,,,,,,,,,,,,,Confirm,Y
+84,All,2,Departure,Platinum Plus,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Enjoy access (2 hours) to our partner’s lounge with snacks, food and non-alcoholic beverage.
+•	Buggy service from our partner Lounge to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Per Person,INR,2250,,1785,,,,,,,24,"+ 5Hrs 30 Mins
+",225,2475,,,,,,,,,,,,,,,,Confirm,Y
+85,All,2,Departure,Platinum Plus,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Enjoy access (2 hours) to our partner’s lounge with snacks, food and non-alcoholic beverage.
+•	Buggy service from our partner Lounge to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Per Person,INR,2250,,1785,,,,,,,24,"+ 5Hrs 30 Mins
+",225,2475,,,,,,,,,,,,,,,,Confirm,Y
+86,All,2,Departure,Platinum Plus,,"•	Warm welcome by our officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Enjoy access to Pranaam Lounge with a scrumptious food and non-alcoholic beverages.
+•	Private Buggy service from Pranaam Lounge to the designated boarding gate (subject to the availability and location of the gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,4214,759,3484,627,,,,,,24,"+ 5Hrs 30 Mins
+",421.4,4635.4,,,,,,,,,,,,,,,,Confirm,Y
+87,All,2,Departure,Platinum Plus Group,,"•	Warm welcome by our officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Enjoy access to Pranaam Lounge with a scrumptious food and non-alcoholic beverages.
+•	Private Buggy service from Pranaam Lounge to the designated boarding gate (subject to the availability and location of the gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Group,INR,24865,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",2486.5,27351.5,,,,,,,,,,,,,,,,Confirm,Y
+88,All,2,Departure,Platinum Plus Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Enjoy access (2 hours) to our partner’s lounge with snacks, food and non-alcoholic beverage.
+•	Buggy service from our partner Lounge to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Group,INR,12750,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",1275,14025,,,,,,,,,,,,,,,,Confirm,Y
+89,All,2,Departure,Platinum Plus Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till the boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Enjoy access (2 hours) to our partner’s lounge with snacks, food and non-alcoholic beverage.
+•	Buggy service from our partner Lounge to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Group,INR,12750,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",1275,14025,,,,,,,,,,,,,,,,Confirm,Y
+90,All,2,Departure,Platinum,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Buggy service to the designated boarding gate (Subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1913,,1361,,,,,,,24,"+ 5Hrs 30 Mins
+",191.3,2104.3,,,,,,,,,,,,,,,,Confirm,Y
+91,All,2,Departure,Platinum,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Buggy service to the designated boarding gate (Subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1913,,1361,,,,,,,24,"+ 5Hrs 30 Mins
+",191.3,2104.3,,,,,,,,,,,,,,,,Confirm,Y
+92,All,2,Departure,Platinum,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Buggy service to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,3613,,2550,627,,,,,,24,"+ 5Hrs 30 Mins
+",361.3,3974.3,,,,,,,,,,,,,,,,Confirm,Y
+93,All,2,Departure,Platinum Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Buggy service to the designated boarding gate (subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Group,INR,18066,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",1806.6,19872.6,,,,,,,,,,,,,,,,Confirm,Y
+94,All,2,Departure,Platinum Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Buggy service to the designated boarding gate (Subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Group,INR,9564,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",956.4,10520.4,,,,,,,,,,,,,,,,Confirm,Y
+95,All,2,Departure,Platinum Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 3 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Buggy service to the designated boarding gate (Subject to the availability and location of boarding gate).",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Group,INR,9564,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",956.4,10520.4,,,,,,,,,,,,,,,,Confirm,Y
+96,All,2,Departure,Gold,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to security check.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 2 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Shared Buggy for distant Gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1600,,1150,,,,,,,24,"+ 5Hrs 30 Mins
+",160,1760,,,,,,,,,,,,,,,,Confirm,Y
+97,All,2,Departure,Gold,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to security check.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 2 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Shared Buggy for distant Gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1600,,1150,,,,,,,24,"+ 5Hrs 30 Mins
+",160,1760,,,,,,,,,,,,,,,,Confirm,Y
+98,All,2,Departure,Gold,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till immigration check.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance with the Security Check and Immigration process.
+•	Shared buggy for distant gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,2295,,1805,,,,,,,24,"+ 5Hrs 30 Mins
+",229.5,2524.5,,,,,,,,,,,,,,,,Confirm,Y
+99,All,2,Departure,Gold Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from curbside till immigration check.
+•	Assistance with airline check-in process with dedicated porter for check-in baggage (Max. 3 pieces per guest) from curbside till airline check-in counters.
+•	Guidance with the Security Check and Immigration process.
+•	Shared buggy for distant gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Group,INR,11476,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",1147.6,12623.6,,,,,,,,,,,,,,,,Confirm,Y
+100,All,2,Departure,Gold Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to security check.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 2 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Shared Buggy for distant Gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Group,INR,6400,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",640,7040,,,,,,,,,,,,,,,,Confirm,Y
+101,All,2,Departure,Gold Group,,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to security check.
+•	Assistance with airline check-in process with dedicated porter assistance for check-in baggage (Max. 2 pieces) from curbside till airline check-in counters.
+•	Guidance with the Security Check process.
+•	Shared Buggy for distant Gates",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Group,INR,6400,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",640,7040,,,,,,,,,,,,,,,,Confirm,Y
+102,All,2,Arrival,Platinum,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Dedicated buggy service from aerobridge to the arrival baggage hall. (subject to availability and location of boarding gate)
+•	Dedicated porter assistance for baggage retrieval (Max. 3 pieces per guest)
+•	Assistance till the parking or the receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Per Person,INR,2250,,1600,,,,,,,24,"+ 5Hrs 30 Mins
+",225,2475,,,,,,,,,,,,,,,,Confirm,Y
+103,All,2,Arrival,Platinum,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Dedicated buggy service from aerobridge to the arrival baggage hall. (subject to availability and location of boarding gate)
+•	Dedicated porter assistance for baggage retrieval (Max. 3 pieces per guest)
+•	Assistance till the parking or the receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Per Person,INR,2250,,1600,,,,,,,24,"+ 5Hrs 30 Mins
+",225,2475,,,,,,,,,,,,,,,,Confirm,Y
+104,All,2,Arrival,Platinum,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated Officer for assistance from the aerobridge/bus gate till parking area or receiving party.
+•	Dedicated buggy service from aerobridge to the immigration hall. (subject to availability and location of boarding gate)
+•	Guidance with immigration process.
+•	Dedicated porter service for retrieval of baggage (Max. 3 pieces per guest)
+•	Assistance till parking or receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,4973,,3485,627,,,,,,24,"+ 5Hrs 30 Mins
+",497.3,5470.3,,,,,,,,,,,,,,,,Confirm,Y
+105,All,2,Arrival,Platinum Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated Officer for assistance from the aerobridge/bus gate till parking area or receiving party.
+•	Dedicated buggy service from aerobridge to the immigration hall. (subject to availability and location of boarding gate)
+•	Guidance with immigration process.
+•	Dedicated porter service for retrieval of baggage (Max. 3 pieces per guest)
+•	Assistance till parking or receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Group,INR,24863,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",2486.3,27349.3,,,,,,,,,,,,,,,,Confirm,Y
+106,All,2,Arrival,Platinum Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Dedicated buggy service from aerobridge to the arrival baggage hall. (subject to availability and location of boarding gate)
+•	Dedicated porter assistance for baggage retrieval (Max. 3 pieces per guest)
+•	Assistance till the parking or the receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Group,INR,9000,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",900,9900,,,,,,,,,,,,,,,,Confirm,Y
+107,All,2,Arrival,Platinum Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Dedicated buggy service from aerobridge to the arrival baggage hall. (subject to availability and location of boarding gate)
+•	Dedicated porter assistance for baggage retrieval (Max. 3 pieces per guest)
+•	Assistance till the parking or the receiving party.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Group,INR,9000,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",900,9900,,,,,,,,,,,,,,,,Confirm,Y
+108,All,2,Arrival,Gold,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Porter assistance for baggage (Max. 2 pieces per guest) retrieval from baggage hall.
+•	Assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1360,,978,,,,,,,24,"+ 5Hrs 30 Mins
+",136,1496,,,,,,,,,,,,,,,,Confirm,Y
+109,All,2,Arrival,Gold,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Porter assistance for baggage (Max. 2 pieces per guest) retrieval from baggage hall.
+•	Assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Per Person,INR,1360,,978,,,,,,,24,"+ 5Hrs 30 Mins
+",136,1496,,,,,,,,,,,,,,,,Confirm,Y
+110,All,2,Arrival,Gold,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Buggy service (shared/depending on availability) from aerobridge to the immigration hall.
+•	Guidance with immigration process.
+•	Dedicated porter service from baggage hall for bags (Max. 3 pieces per guest) & assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,3612,,2550,,,,,,,24,"+ 5Hrs 30 Mins
+",361.2,3973.2,,,,,,,,,,,,,,,,Confirm,Y
+111,All,2,Arrival,Gold Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Buggy service (shared/depending on availability) from aerobridge to the immigration hall.
+•	Guidance with immigration process.
+•	Dedicated porter service from baggage hall for bags (Max. 3 pieces per guest) & assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Group,INR,18060,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",1806,19866,,,,,,,,,,,,,,,,Confirm,Y
+112,All,2,Arrival,Gold Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Porter assistance for baggage (Max. 2 pieces per guest) retrieval from baggage hall.
+•	Assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,Domestic,Mumbai,India,Pranaam,Group,INR,6800,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",680,7480,,,,,,,,,,,,,,,,Confirm,Y
+113,All,2,Arrival,Gold Group,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge/ bus gate till arrival exit.
+•	Porter assistance for baggage (Max. 2 pieces per guest) retrieval from baggage hall.
+•	Assistance till the arrival exit gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T1,,Domestic,Mumbai,India,Pranaam,Group,INR,6800,,,,5,5,,,,24,"+ 5Hrs 30 Mins
+",680,7480,,,,,,,,,,,,,,,,Confirm,Y
+114,All,2,Transit,International to International,,"•	Warm welcome at aerobridge/bus gate by our Officer.
+•	Dedicated Officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Buggy Services (subject to the availability and location of boarding gate)till International Transfer Desk.
+•	Guidance with the airport and airline transit process.
+•	Enjoy access to Pranaam Lounge with scrumptious food and non-alcoholic beverage.
+•	Boarding alert by Pranaam Officer/Lounge Executive.
+•	Buggy service (subject to the availability and location of boarding gate) from Pranaam Lounge to the designated boarding gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,,International,Mumbai,India,Pranaam,Per Person,INR,5850,,4100,,,,,,,24,"+ 5Hrs 30 Mins
+",585,6435,,,,,,,,,,,,,,,,Confirm,Y
+115,All,2,Transit,International to Domestic,,"•	Warm welcome at aerobridge/bus gate by our Officer.
+•	Dedicated Pranaam Officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Buggy service from aerobridge to the immigration hall(subject to the availability and location of boarding gate).
+•	Guidance with the immigration arrival process.
+•	Porter assistance from baggage hall (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes at Domestic Terminal.
+•	Boarding alert by Pranaam Officer/Lounge Executive.
+•	Guidance to the designated boarding gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T2,International,Mumbai,India,Pranaam,Per Person,INR,5850,,4100,,,,,,,24,"+ 5Hrs 30 Mins
+",585,6435,,,,,,,,,,,,,,,,Confirm,Y
+116,All,2,Transit,International to Domestic without land transfer,,"•	Warm welcome at aerobridge/bus gate by our Officer.
+•	Dedicated Pranaam Officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Buggy service from aerobridge to the immigration hall(subject to the availability and location of boarding gate).
+•	Guidance with the immigration arrival process.
+•	Porter assistance from baggage hall (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes at Domestic Terminal.
+•	Boarding alert by Pranaam Officer/Lounge Executive.
+•	Guidance to the designated boarding gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",585,6435,,,,,,,,,,,,,,,,Confirm,Y
+117,All,2,Transit,International to Domestic with Land Transfer,,"•	Warm welcome at aerobridge/bus gate by our Officer.
+•	Dedicated Pranaam Officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Buggy service from aerobridge to the immigration hall(subject to the availability and location of boarding gate).
+•	Guidance with the immigration arrival process.
+•	Porter assistance from baggage hall (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes at Domestic Terminal.
+•	Boarding alert by Pranaam Officer/Lounge Executive.
+•	Guidance to the designated boarding gate.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+118,All,2,Transit,Domestic to International,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter service assistance for retrieval and loading of baggage (Max of 2 pieces).
+•	Assistance with airline check-in process.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Enjoy access to Pranaam Lounge (accessible after immigration) with scrumptious food and non-alcoholic beverage.
+•	Buggy service from Pranaam Lounge to boarding gate (subject to the availability and location of boarding gate).
+•	Boarding alert by Pranaam Officer/Lounge Executive.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T2,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+119,All,2,Transit,Domestic to International without Land Transfer,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter service assistance for retrieval and loading of baggage (Max of 2 pieces).
+•	Assistance with airline check-in process.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Enjoy access to Pranaam Lounge (accessible after immigration) with scrumptious food and non-alcoholic beverage.
+•	Buggy service from Pranaam Lounge to boarding gate (subject to the availability and location of boarding gate).
+•	Boarding alert by Pranaam Officer/Lounge Executive.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850,,4100,,,,,,,24,"+ 5Hrs 30 Mins
+",585,6435,,,,,,,,,,,,,,,,Confirm,Y
+120,All,2,Transit,Domestic to International with Land Transfer,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter service assistance for retrieval and loading of baggage (Max of 2 pieces).
+•	Assistance with airline check-in process.
+•	Guidance through VIP/CIP lanes for Security Check.
+•	Guidance with Immigration process.
+•	Enjoy access to Pranaam Lounge (accessible after immigration) with scrumptious food and non-alcoholic beverage.
+•	Buggy service from Pranaam Lounge to boarding gate (subject to the availability and location of boarding gate).
+•	Boarding alert by Pranaam Officer/Lounge Executive.",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+121,All,2,Transit,Domestic to Domestic,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter assistance for baggage retrieval and loading of baggage (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes
+•	Guidance with Security Check
+•	Guidance to the designated boarding gate",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T2,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+122,All,2,Transit,Domestic to Domestic without Land Transfers,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter assistance for baggage retrieval and loading of baggage (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes
+•	Guidance with Security Check
+•	Guidance to the designated boarding gate",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+123,All,2,Transit,Domestic to Domestic with Land Transfers,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from aerobridge on arrival till the boarding gate of next connecting flight.
+•	Porter assistance for baggage retrieval and loading of baggage (Max. 2 bags) till Domestic Check-in Counters.
+•	Assistance with Airline processes
+•	Guidance with Security Check
+•	Guidance to the designated boarding gate",,,,,,,Chhatrapati Shivaji International Airport,BOM,T2,T1,International,Mumbai,India,Pranaam,Per Person,INR,5850 + Transport,,4100 + Transport,,,,,,,24,"+ 5Hrs 30 Mins
+",#VALUE!,#VALUE!,,,,,,,,,,,,,,,,Confirm,Y
+124,UK,1,India Evisa,Tourist,,"Evisa
+Form Filling
+Status Updates",,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,10.25,112.75,,,,,,,,,,,,,,,,Confirm,Y
+125,UK,1,India Evisa,Business,,"Evisa
+Form Filling
+Status Updates",,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,23.4375,125.9375,,,,,,,,,,,,,,,,Confirm,Y
+126,UK,1,India Evisa,Medical,,"Evisa
+Form Filling
+Status Updates",,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,23.4375,125.9375,,,,,,,,,,,,,,,,Confirm,Y
+127,US,1,India Evisa,Tourist,,,,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,23.4375,125.9375,,,,,,,,,,,,,,,,Confirm,Y
+128,US,1,India Evisa,Business,,,,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,23.4375,125.9375,,,,,,,,,,,,,,,,Confirm,Y
+129,US,1,India Evisa,Medical,,,,,,,,,,,,,,,,India Embassy,Per Person,USD,102.5,,,,,,,,,,,23.4375,125.9375,,,,,,,,,,,,,,,,Confirm,Y
+130,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,180,9,,,,,,,,24,"+ 4Hrs
+",54,234,,,,,,,,,,,,,,,,Confirm,Y
+131,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,270,13.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+132,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,360,18,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+133,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,450,22.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+134,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,540,27,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+135,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,630,31.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+136,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,720,36,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+137,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,225,11.25,,,,,,,,24,"+ 4Hrs
+",67.5,292.5,,,,,,,,,,,,,,,,Confirm,Y
+138,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,338,16.9,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+139,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,451,22.55,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+140,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,564,28.2,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+141,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,677,33.85,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+142,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,790,39.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+143,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,,903,45.15,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+144,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,270,13.5,,,,,,,,24,"+ 4Hrs
+",81,351,,,,,,,,,,,,,,,,Confirm,Y
+145,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,2,2,405,20.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+146,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,3,3,540,27,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+147,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,4,4,675,33.75,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+148,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,5,5,810,40.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+149,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,6,6,945,47.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+150,All,2,Transit,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Assistance through transfer desk formalities.
+•	Transfer between Terminals if needed
+•	Access to relax in the Lounge, if booked.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,,,,,7,7,1080,54,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+151,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,270,13.5,,,,,,,,24,"+ 4Hrs
+",81,351,,,,,,,,,,,,,,,,Confirm,Y
+152,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,405,20.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+153,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,540,27,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+154,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,675,33.75,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+155,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,810,40.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+156,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,945,47.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+157,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T1,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,1080,54,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+158,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,270,13.5,,,,,,,,24,"+ 4Hrs
+",81,351,,,,,,,,,,,,,,,,Confirm,Y
+159,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,405,20.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+160,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,540,27,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+161,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,675,33.75,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+162,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,810,40.5,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+163,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,945,47.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+164,All,2,Departure,Meet & Assist Plus,,"•	Warm welcome by our Officer at the curbside.
+•	Dedicated officer for assistance from curbside to the boarding gate.
+•	Assistance with airline check-in process.
+•	Fast track through Immigration and Security Check.
+•	Enjoy access to the Lounge with scrumptious food and non-alcoholic and alcoholic beverage.
+•	Escort to the departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,T3,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,1080,54,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+165,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,315,15.75,,,,,,,,24,"+ 4Hrs
+",94.5,409.5,,,,,,,,,,,,,,,,Confirm,Y
+166,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,473,23.65,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+167,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,631,31.55,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+168,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,789,39.45,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+169,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,947,47.35,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+170,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,1105,55.25,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+171,All,2,Arrival,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Fast track through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,1263,63.15,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+172,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Per Person,AED,360,18,,,,,,,,24,"+ 4Hrs
+",108,468,,,,,,,,,,,,,,,,Confirm,Y
+173,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,2,2,540,27,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+174,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,3,3,720,36,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+175,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,4,4,900,45,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+176,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,5,5,1080,54,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+177,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,6,6,1260,63,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+178,All,2,Transit,Meet & Assist Plus,,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Enjoy access to the Lounge with facilities such as Refreshments, Wi-Fi, News Paper etc are available till your formalities of immigration and baggage collection is finalised.
+•	Escort Passenger to the next departure boarding gate",,,,,,,Abu Dhabi International Airport,AUH,,,International,Abu Dhabi,UAE,Pearl Assist,Group,AED,,,,,7,7,1440,72,,24,"+ 4Hrs
+",0,0,,,,,,,,,,,,,,,,Confirm,Y
+179,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Assistance through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Per Person,Euro,52.94,10.05,52.94,10.05,,,,,,24,"+ 2Hrs
+",,52.94,,,,,,,,,,,,,,,,Confirm,Y
+180,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Assistance through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,2,3,83.82,15.92,,24,"+ 2Hrs
+",,83.82,,,,,,,,,,,,,,,,Confirm,Y
+181,All,2,Arrival,Meet & Assist (Need to rename),,"•	Warm welcome at aerobridge/bus gate by our officer.
+•	Dedicated officer for assistance from the aerobridge gate till the arrival exit gate/receiving party.
+•	Assistance through Immigration and Security check
+•	Assistance at the baggage belt area
+•	Escort Passenger to the receiving party in arrivals area
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,4,6,136.76,25.98,,24,"+ 2Hrs
+",,136.76,,,,,,,,,,,,,,,,Confirm,Y
+182,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process 
+•	Guidance with Immigration and Security Check process.
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Per Person,Euro,52.94,10.05,52.94,10.05,,,,,,24,"+ 2Hrs
+",,52.94,,,,,,,,,,,,,,,,Confirm,Y
+183,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process 
+•	Guidance with Immigration and Security Check process.
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,2,3,83.82,15.92,,24,"+ 2Hrs
+",,83.82,,,,,,,,,,,,,,,,Confirm,Y
+184,All,2,Departure,Meet & Assist (Need to rename),,"•	Warm welcome by our Officer at the curbside/car drop off zone.
+•	Dedicated Officer for assistance from the curbside to boarding gate.
+•	Assistance with airline check-in process 
+•	Guidance with Immigration and Security Check process.
+•	Meet and Assist Service will be available for only up to 90 minutes",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,4,6,136.76,25.98,,24,"+ 2Hrs
+",,136.76,,,,,,,,,,,,,,,,Confirm,Y
+185,All,2,Transit,Meet & Assist (Need to rename),,"•	Our concierge waits the guest at the aerobridge
+•	Assistance in collecting the boarding pass of the next flight (if applicable)
+•	Escort to the airline lounge (if applicable) or directly to gate of your connecting flight",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Per Person,Euro,52.94,10.05,52.94,10.05,,,,,,24,"+ 2Hrs
+",,52.94,,,,,,,,,,,,,,,,Confirm,Y
+186,All,2,Transit,Meet & Assist (Need to rename),,"•	Our concierge waits the guest at the aerobridge
+•	Assistance in collecting the boarding pass of the next flight (if applicable)
+•	Escort to the airline lounge (if applicable) or directly to gate of your connecting flight",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,2,3,83.82,15.92,,24,"+ 2Hrs
+",,83.82,,,,,,,,,,,,,,,,Confirm,Y
+187,All,2,Transit,Meet & Assist (Need to rename),,"•	Our concierge waits the guest at the aerobridge
+•	Assistance in collecting the boarding pass of the next flight (if applicable)
+•	Escort to the airline lounge (if applicable) or directly to gate of your connecting flight",,,,,,1.5,Munich Airport,MUC,,,International,Munich,Germany,Flughafen Munchen,Group,Euro,,,,,4,6,136.76,25.98,,24,"+ 2Hrs
+",,136.76,,,,,,,,,,,,,,,,Confirm,Y

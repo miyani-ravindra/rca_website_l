@@ -1,0 +1,24 @@
+.__main_header .count_box {
+    float: left;
+    margin-top: 3px;
+}
+.count{
+	margin-right: 2px;
+    margin-top: -2px;
+}
+.__alert_success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.__products_body ul li{
+    list-style: square !important;
+}
+.__products_container .__products_body p{
+    margin-left: -20px;
+}

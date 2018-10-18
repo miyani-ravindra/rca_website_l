@@ -1,0 +1,441 @@
+body.mobile header.__sd_header ul li {
+    width: 100%;
+}
+
+.flexslider .flex-viewport ul._aboutus.slides>li {
+    margin-right: 0;
+}
+
+ul.flex-direction-nav {
+    left: 0;
+    height: 0;
+}
+
+ul.flex-direction-nav li a:before {
+    font-size: 15px !important;
+    position: absolute;
+    top: 50%;
+    color: #ffffff;
+    width: 22px;
+    height: 44px;
+    background: #ee3132;
+    line-height: 45px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+
+body.mobile div#tawkchat-container {
+    transform: scale(0);
+}
+ul.flex-direction-nav li a {
+    font-size: 0;
+}
+
+a.flex-prev:before {
+    content: "\f053";
+    font-size: 20px !important;
+    left: -2px;
+    font-family: fontawesome;
+}
+
+a.flex-next:before {
+    content: "\f054";
+    right: -1px;
+    font-family: fontawesome;
+}
+
+ol.flex-control-nav.flex-control-paging {
+    display: none;
+}
+
+body.mobile ul._aboutus.slides li {
+    opacity: 0.5;
+}
+
+ul._aboutus.slides li.flex-active-slide {
+    opacity: 1 !important;
+}
+
+body.mobile {
+    margin-top: 60px;
+    height: auto;
+    float: left;
+}
+
+body.mobile li.closeMe a img {
+    opacity: 0;
+}
+
+body.mobile li.closeMe:before {
+    content: "\00d7";
+    position: absolute;
+    top: 3px;
+    font-size: 36px;
+    left: 0px;
+}
+
+body.mobile header.__sd_header {
+    position: fixed;
+    width: 100%;
+    z-index: 390;
+    margin: 0;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 64px;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+}
+
+body.mobile ul._social li a img {
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+body.mobile header.__sd_header.openMobileNav {
+    opacity: 1;
+    visibility: visible;
+}
+
+body.mobile header.__sd_header.openMobileNav .__sd_nav {
+    left: 0;
+    top: 65px;
+}
+
+body.mobile header.__sd_header .__sd_nav {
+    width: 70%;
+    position: fixed;
+    text-align: left;
+    background: #FFF;
+    transition: all 0.5s;
+    overflow-y: auto;
+    left: -100%;
+    top: 65px;
+    bottom: 0;
+}
+
+body ul.tabs_z li span i {
+    font-style: normal;
+}
+
+body.mobile ul.tabs_z li span i {
+    display: none;
+}
+
+body.mobile ul.tabs_z li.__current .__title {
+    color: #ff2020;
+}
+
+body.mobile header.__sd_header ul>li {
+    width: 100%;
+    display: block !important;
+}
+
+body .Hamburger {
+    display: none;
+}
+
+body.mobile ul.tabs_z li img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+    border: none;
+    width: 35px;
+}
+
+body.mobile .Hamburger.toggleHam span:first-child {
+    transform: rotate(47deg) translate(4px, 4px);
+}
+
+body.mobile .Hamburger.toggleHam span:last-child {
+    transform: rotate(133deg) translate(-6px, 6px);
+}
+
+body.mobile .Hamburger.toggleHam span:nth-child(2) {
+    opacity: 0;
+}
+
+body.mobile .Hamburger {
+    display: block !important;
+    position: relative;
+    float: left;
+    width: 25px;
+    height: 20px;
+    top: 25px;
+    margin-right: 10px;
+    left: 5px;
+}
+
+body.mobile .Hamburger span {
+    background: #ff6958;
+    height: 3px;
+    transition: all 0.5s;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+body.mobile .Hamburger span:nth-child(2) {
+    top: 7px;
+}
+
+body.mobile .Hamburger span:nth-child(3) {
+    top: 14px;
+}
+
+body.mobile .openMobileNav li.__sd_user .__dropdown {
+    width: 100%;
+    left: initial;
+    position: relative;
+    top: 0;
+    box-shadow: none;
+}
+
+body.mobile .openMobileNav li.__sd_user .__dropdown li {
+    text-align: left;
+}
+
+body.mobile .openMobileNav li.__sd_user .__dropdown li .__sub_dropdown {
+    width: 100%;
+    position: relative;
+    left: 0;
+    box-shadow: none;
+}
+
+body.mobile .row.footerImg {
+    float: left;
+    margin: 30px 0 10px 0;
+}
+
+body.mobile .openMobileNav li.__sd_user .__dropdown li .__sub_dropdown li {
+    border-bottom: thin dashed #eee;
+}
+
+body.mobile .HideInMobile {
+    display: none !important;
+}
+
+body .ShowInMobile {
+    display: none !important;
+}
+
+body.mobile .ShowInMobile {
+    display: block !important;
+    text-align: center;
+    margin: auto;
+}
+
+body.mobile ._contact_info {
+    padding-bottom: 0;
+}
+
+body.mobile .paddingtb_20 {
+    padding-top: 0;
+}
+
+body.mobile .__copyright {
+    text-align: center;
+}
+
+body.mobile .__footer_box ul {
+    text-align: left;
+}
+
+body.mobile .__notification {
+    display: none;
+}
+
+body.mobile #tab-1:before {
+    content: "eVisa";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+body.mobile #tab-2:before {
+    content: "AIRPORT MEET & GREET";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+}
+
+body.mobile #tab-3:before {
+    content: "AIRPORT LOUNGES";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+}
+
+body.mobile .tabs_z_content {
+    margin-top: 30px;
+    position: relative;
+}
+
+body.mobile ul.tabs_z {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+}
+
+body.mobile nav.__sd_nav .__ul>li.ShowInMobile {
+    display: block !important;
+    text-align: left;
+    width: 100% !important;
+}
+
+body.mobile ul.tabs_z li {
+    width: 33.33%;
+    border-bottom: 4px solid #ddd !important;
+    /* display: inline-block; */
+}
+
+body.mobile ul.tabs_z li embed {
+    margin: 0 auto;
+    filter: grayscale(1);
+    width: 35px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+body.mobile .__sd_nav .__ul li.ShowInMobile ul li {
+    display: inline-block !important;
+    width: auto;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+body.mobile .__sd_nav .__ul li.ShowInMobile ul {
+    text-align: left;
+}
+
+body.mobile ul.tabs_z li .__title {
+    color: #8c8c8c;
+}
+
+body.mobile ul.tabs_z li.__current .__title {
+    color: #ff0707;
+}
+
+body.mobile .__main_header .__logo_box img {
+    width: 130px;
+    margin-left: 10px;
+}
+
+body.mobile ul.tabs_z {
+    /* border-top: 2px solid #f00; */
+    width: 100%;
+    box-shadow: 0px -1px 10px 4px #2222222e;
+}
+
+body.mobile ul.tabs_z li.__current embed {
+    filter: grayscale(0);
+    opacity: 1 !important;
+}
+
+body.mobile ul.tabs_z li {
+    border-radius: 0;
+    border: 0;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    height: 72px;
+    float: left;
+    margin: 0 !important;
+}
+
+body.mobile ul.tabs_z li.__current {
+    border-bottom: 4px solid #ed2728 !important;
+}
+
+body.mobile .__top_right_navbox .__top_right_nav ul.__ul>li.__relative>a img {
+    display: inline-block;
+    width: 23px;
+    position: relative;
+    top: -1px;
+}
+
+body.mobile .__top_right_navbox .__top_right_nav ul.__ul>li>a img {
+    display: inline-block;
+    width: 18px;
+    /* position: relative; */
+}
+
+body.mobile header.openMobileNav .CloseNav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #fff0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.bottoMargin {
+    margin-bottom: 80px;
+}
+
+body.mobile .__lead_form .col-md-12,
+body.mobile .__lead_form .col-md-6 {
+    width: 100%;
+    float: left;
+}
+
+body.mobile .col-md-12.paddingtb_30.text-center {
+    padding-top: 10px;
+}
+
+.flexslider .flex-viewport ul._aboutus.slides>li span {
+    pointer-events: none;
+}
+
+body.mobile .__top_right_navbox .__top_right_nav ul.__ul>li>a {
+    font-size: 0 !important;
+}
+
+body.mobile .__top_right_navbox .__top_right_nav ul.__ul {
+    position: relative;
+    top: -6px;
+}
+
+body.mobile div#tawkchat-container {
+    transform: scale(0);
+}
+
+body.mobile .__lead_dropdown:after {
+    transform: scale(1, 0.6);
+    right: 40px;
+    top: -5px;
+}
+
+body.mobile div#tawkchat-container {
+    transform: scale(0);
+}
+
+body.mobile .__lead_dropdown {
+    top: 75px;
+}

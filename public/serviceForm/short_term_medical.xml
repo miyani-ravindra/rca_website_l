@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<inputelements>
+		<element>
+			<type>text</type>
+			<name>service_req_short_medical[hospital_name]</name>
+			<label>Name of the Hospital where Medical treatment is to be carried out</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+
+		<element>
+			<type>text</type>
+			<name>service_req_short_medical[hospital_address]</name>
+			<label>Address of Hospital</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder>Pre initialised text...</placeholder> -->
+		</element>
+		<!-- <element>
+			<type>dynamic_select_with_value</type>
+			<name>service_req_form_values</name>
+			<label>State</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<select_stmt>select agent_id id, concat(agent_code, '-', agent_name) value from agents where enabled = 'Y'</select_stmt>
+		</element> -->
+		<element>
+			<type>dynamic_select_with_value</type>
+			<name>service_req_short_medical[hospital_state]</name>
+			<exname>service_req_short_medical[hospital_state_name]</exname>
+			<label>State</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<blankoption>Select State</blankoption>
+			<select_stmt>select state_id as id, state_code, state_name value from states where isactive = 'Y' ORDER BY state_name ASC</select_stmt>
+		</element>
+		<element>
+			<type>text</type>
+			<name>service_req_short_medical[hospital_district]</name>
+			<label>District</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+		</element>
+		<element>
+			<type>text</type>
+			<name>service_req_short_medical[hospital_phone_no]</name>
+			<label>Phone no</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<onlynumber>yes</onlynumber>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+		<element>
+			<type>text</type>
+			<name>service_req_short_medical[type_of_medical]</name>
+			<label>Type of Medical Treatment required</label>
+			<size>large</size>
+			<mandatory>yes</mandatory>
+			<!-- <placeholder></placeholder> -->
+			<!-- <additional>Some more text that helps filling this field</additional> -->
+		</element>
+	</inputelements>
+</form>
