@@ -160,7 +160,7 @@
                                              <option value="F" {{isset($getocr['sex']['abbr']) && ($getocr['sex']['abbr']=='F')?'selected':NULL}}>FEMALE</option>
                                              <option value="T" {{isset($getocr['sex']['abbr']) && ($getocr['sex']['abbr']=='T')?'selected':NULL}}>TRANSGENDER</option>
                                           </select-->
-                                          <input type="text" name="" class=" __select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="gender_text" class=" __select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                               <li data-val="M">MALE</li>
                                               <li data-val="F">FEMALE</li>
@@ -201,7 +201,7 @@
                                                 <option value="{{$row->country_id}}">{{$row->country_name}}</option>
                                                 @endforeach
                                              </select-->
-                                            <input type="text" name="" class="__select_drop inputF" autocomplete="off" />
+                                            <input type="text" name="cob_text" class="__select_drop inputF" autocomplete="off" />
                                             <ul class="hiddenul">
                                                 @foreach($getcountry as $row)
                                                   <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -256,7 +256,7 @@
                                                 <option value="{{$row->religion_id}}">{{$row->religion_name}}</option>
                                                 @endforeach
                                              </select-->
-                                             <input type="text" name="" class="__select_drop inputF" autocomplete="off" />
+                                             <input type="text" name="religion_code_text" class="__select_drop inputF" autocomplete="off" />
                                               <ul class="hiddenul">
                                                 @foreach($getreligion as $row)
                                                   <li data-val="{{$row->religion_id}}">{{$row->religion_name}}</li>
@@ -297,7 +297,7 @@
                                                 <option value="{{$row->id}}">{{$row->qualification}}</option>
                                                 @endforeach
                                              </select-->
-                                             <input type="text" name="" class="__select_drop inputF" autocomplete="off" />
+                                             <input type="text" name="qualification_text" class="__select_drop inputF" autocomplete="off" />
                                               <ul class="hiddenul">
                                                 @foreach($getqualification as $row)
                                                   <li data-val="{{$row->id}}">{{$row->qualification}}</li>
@@ -324,13 +324,13 @@
                                                 <option value="{{$val->country_id}}" {{isset($getocr['nationality']['country_id']) && ($val->country_id==$getocr['nationality']['country_id'])?'selected':NULL}}>{{$val->country_name}}</option>
                                                 @endforeach
                                              </select-->
-                                             <input type="text" name="" class="__select_drop inputF" autocomplete="off" />
+                                             <input type="text" name="nationality_text" class="__select_drop inputF" autocomplete="off" />
                                               <ul class="hiddenul">
                                                 @foreach($getcountry as $val)
                                                   <li data-val="{{$val->country_id}}" {{isset($getocr['nationality']['country_id']) && ($val->country_id==$getocr['nationality']['country_id'])?'selected':NULL}}">{{$val->country_name}}</li>
                                                 @endforeach
                                               </ul>
-                                              <input type="hidden" name="qualification" class="inputH" value="">
+                                              <input type="hidden" name="nationality" class="inputH" value="">
                                               <div class="press_enter"></div>
                                           </div>
                                           <div class="outerclick"></div>
@@ -341,16 +341,11 @@
                                              <div class="qs_body">
                                                 Aquired Nationality by
                                                 <span class="strike">*</span>
-                                                <div class="qs_sub">Aquired nNationality by</div>
+                                                <div class="qs_sub">Aquired Nationality by</div>
                                              </div>
                                           </div>
                                           <div class="input-control outerInFoc">
-                                             <!--select class="__select_drop" id="aquired_nation" name="aquired_nation" required="">
-                                                <option value="">Select...</option>
-                                                <option value="By Birth">By Birth</option>
-                                                <option value="Naturalization">Naturalization</option>
-                                             </select-->
-                                             <input type="text" name="" class="__select_drop inputF" autocomplete="off" id="aquired_nation" />
+                                             <input type="text" name="aquired_nation_text" class="__select_drop inputF" autocomplete="off" id="aquired_nation" />
                                                 <ul class="hiddenul">
                                                     <li data-val="">Select...</li>
                                                     <li data-val="By Birth">By Birth</li>
@@ -371,13 +366,7 @@
                                              </div>
                                           </div>
                                           <div class="input-control outerInFoc">
-                                             <!--select class="__select_drop" name="prev_nationality">
-                                                <option value="">Select Nationality</option>
-                                                @foreach($getcountry as $row)
-                                                <option value="{{$row->country_id}}">{{$row->country_name}}</option>
-                                                @endforeach
-                                             </select-->
-                                             <input type="text" name="" class="__select_drope inputF" autocomplete="off" />
+                                             <input type="text" name="prev_nationality_text" class="__select_drop inputF" autocomplete="off" />
                                                 <ul class="hiddenul">
                                                     @foreach($getcountry as $row)
                                                        <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -501,7 +490,7 @@
                                                    <option value="{{$row->country_id}}">{{$row->country_name}}</option>
                                                    @endforeach
                                                 </select-->
-                                                <input type="text" name="" class="__select_drop inputF" autocomplete="off" />
+                                                <input type="text" name="prev_passport_country_issue_text" class="__select_drop inputF" autocomplete="off" />
                                                 <ul class="hiddenul">
                                                     @foreach($getcountry as $row)
                                                        <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -553,7 +542,8 @@
                                                 <input type="text" id="other_ppt_issue_date" name="other_ppt_issue_date" class="dob datepicker">
                                              </div>
                                           </div>
-                                          <div class="input-block outerInFoc" id="other_ppt_nationality">
+
+                                          <div class="input-block" id="other_ppt_nationality">
                                              <div class="labels">
                                                 <div class="qs_list"></div>
                                                 <div class="qs_body">
@@ -562,14 +552,8 @@
                                                    <div class="qs_sub"></div>
                                                 </div>
                                              </div>
-                                             <div class="input-control">
-                                                <!--select class="__select_drop" name="other_ppt_nationality">
-                                                   <option value="">Select Country</option>
-                                                   @foreach($getcountry as $row)
-                                                   <option value="{{$row->country_id}}">{{$row->country_name}}</option>
-                                                   @endforeach
-                                                </select-->
-                                                <input type="text" name="" class="inputF" autocomplete="off" />
+                                             <div class="input-control outerInFoc">
+                                                <input type="text" name="other_ppt_nationality_text" class="__select_drop inputF" autocomplete="off" />
                                                 <ul class="hiddenul">
                                                     @foreach($getcountry as $row)
                                                        <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>

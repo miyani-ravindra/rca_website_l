@@ -13,7 +13,6 @@ use App\Models\PresaleQuestions;
 use App\Models\AirlineDetails;
 use App\Models\OrderDetails;
 use App\Models\Users;
-use App\Models\UserServicesCountry;
 //use Illuminate\Contracts\Routing\ResponseFactory;
 use DB;
 use Response;
@@ -62,13 +61,11 @@ class PagesController extends ApplicationController {
   //       $visa_14_days_qry = PricingMaster::where('product_id', 2)
   //                    ->get()->first();
   //       $visa_14_days = $visa_14_days_qry->price;
-
-			$get_country = DB::table('countries')
-						->select(DB::raw("country_id, country_code, country_name"))
-						//->where('enabled', 'Y')
+		$get_country = DB::table('countries')
+						->select(DB::raw("country_id, country_code, country_name, is_residing"))
+						->where('enabled', 'Y')
 						->get();
-			// echo "<pre>";print_r($get_country);exit;			
-		return view('pages/index', compact('get_country'));				
+		return view('pages/index',compact('get_country'));			
 	}
 
 	public function visaapplication(Request $request){
@@ -219,6 +216,11 @@ class PagesController extends ApplicationController {
 		return view('pages/terms_and_conditions');
 	}
 
+	public function sitemap()
+	{
+		return view('pages/sitemap');
+	}
+
 	public function privacyPolicy()
 	{
 		return view('pages/privacy_policy');
@@ -243,60 +245,6 @@ class PagesController extends ApplicationController {
 
 	public function thankyoulp(Request $request){
 		return view('pages/thankyoulp');
-	}
-
-	public function searchservicecountry(Request $request) {
-		$getrequest = $request->all();
-		// echo "<pre>";print_r($getrequest);exit;
-		if($request->isMethod('post')) {
-			$saveservicedetails = UserServicesCountry::firstOrCreate(['travel_to'=>$getrequest['country_code']]);
-				$saveservicedetails->travel_to = !empty($getrequest['country_code'])?$getrequest['country_code']:NULL;
-				$saveservicedetails->citizen_to = !empty($getrequest['citizen_to'])?$getrequest['citizen_to']:NULL;
-				$saveservicedetails->residing_in = !empty($getrequest['residing_in'])?$getrequest['residing_in']:NULL;
-				$saveservicedetails->travel_to_name = !empty($getrequest['travel_to_text'])?$getrequest['travel_to_text']:NULL;
-				$saveservicedetails->citizen_to_name = !empty($getrequest['citizen_to_text'])?$getrequest['citizen_to_text']:NULL;
-				// $saveservicedetails->created_at = date('Y-m-d H:i:s');
-
-				$saveservicedetails->save();
-		}
-		// echo "<pre>";print_r($getrequest);exit;
-		return view('pages/searchservicecountry');
-	}
-
-	public function extractservicecountry(Request $request) {
-		$getserviceextract = UserServicesCountry::get();
-		$data_arr = array();
-		$headers = array(
-	        "Content-type" => "text/csv",
-	        "Content-Disposition" => "attachment; filename=data_export_" . date("Y-m-d") . ".csv",
-	        "Pragma" => "no-cache",
-	        "Cache-Control" => "must-revalidate, post-check=0, pre-check=0",
-	        "Expires" => "0"
-    	);
-		if(!empty($getserviceextract)) {
-			$columns = array('Travel To', 'Citizen To', 'Residing In', 'Created Date');
-				# code...
-				$callback = function() use ($getserviceextract, $columns)
-			    {
-			        $file = fopen('php://output', 'w');
-			        fputcsv($file, $columns);
-
-			        foreach($getserviceextract as $value) {
-			            fputcsv($file, array(!empty($value->travel_to)?$value->travel_to_name:NULL, !empty($value->citizen_to)?$value->citizen_to_name:NULL, !empty($value->residing_in)?$value->residing_in:NULL, !empty($value->created_at)?date('d-m-Y H:i:s', strtotime($value->created_at)):NULL));
-
-			            $data_arr['extracted_data'][] = array(
-							"travel_to_name"=>!empty($value->travel_to)?$value->travel_to_name:NULL,
-							"citizen_to_name"=>!empty($value->citizen_to)?$value->citizen_to_name:NULL,
-							"residing_in"=>!empty($value->residing_in)?$value->residing_in:NULL,
-							"created_at"=>!empty($value->created_at)?date('d-m-Y H:i:s', strtotime($value->created_at)):NULL
-						);
-			        }
-			        fclose($file);
-			    };
-
-		    return Response::stream($callback, 200, $headers);
-			echo json_encode($data_arr);exit;
-		}
 	}
 
 	public function ajaxopenproduct($id){
@@ -346,18 +294,18 @@ class PagesController extends ApplicationController {
 		return json_encode($get_country);				
 	}
 
-	public function ajaxgetcountrybyname(Request $request){
+	public function ajaxgetcountrybyname(Request $request) {
 		$getrequest = $request->all();
-		
+
 		$get_country = DB::table('countries')
 						->select(DB::raw("country_id, country_code, country_name, is_residing"))
-						//->where('is_residing', 'Y')
-						->where('country_code','!=',$getrequest['country_code'])
+						->where('enabled', 'Y')
+						->where('country_code',"!=",$getrequest['country_code'])
 						->get();
-		// echo "<pre>";print_r($get_country);exit;				
 		//return Response::json($get_airline);
-		return json_encode($get_country);				
+		return json_encode($get_country);
 	}
+
 
 	public function ajaxgetproductprice(Request $request){
 		$getrequest = $request->all();
@@ -646,18 +594,14 @@ class PagesController extends ApplicationController {
     	return view('landingpages/vietnam');
 	}
 
-	public function lpoman(){
-		// show the form
-    	return view('landingpages/oman');
-	}
-
 	//RCAS-2 START
 	public function get_all_country(){
+
 		//$country_resultset = DB::select("SELECT distinct(country_code),country FROM pricing_master");
 		$country_resultset = DB::table('pricing_master')
 						->select(DB::raw("DISTINCT country_code, country"))
-						->where('product_category','=', 'M&A')
 						->where('country_code','<>', 'NA')
+						->where('product_category','=', 'M&A')
 						->where('is_active', 'Y')
 						->get();
 		return Response::json($country_resultset);				
@@ -697,7 +641,7 @@ class PagesController extends ApplicationController {
 		return Response::json($airport_resultset);				
 	}
 
-	//RCAS-2 END	
+	//RCAS-2 END
 
 	//RCAV1-35 Notification Mailer
 	public function ajaxenquirymailer(Request $request)
@@ -712,7 +656,31 @@ class PagesController extends ApplicationController {
 			$subject = "Thank You for enquiring with RedCarpet Assist";
 			$from = "support@redcarpetassist.com";
 			$name = $getrequest['first_name'] ."&nbsp;". $getrequest['last_name'];
-	        $content = "Dear ".$name.",<br><br><p>Thank you for your interest in our services. We take great pride in exceptional customer service and our team will get in touch with you shortly to answer all your questions.</p><p>In case you do need to get in touch with us urgently, please do call us at +91 22 6253 8600 or email us at customercare@redcarpetassist.com. We work Monday to Saturday, 10 am to 8pm Indian Standard Time (GMT +5.30)</p><p>In the meanwhile, please do check our reviews on Facebook and Google.</p><p>We look forward to welcoming you as our customer.</p><p>Your RedCarpet Assist Team.</p>";
+	        $content = "Dear ".$name.",<br><p>Thank you for your interest in our services. We take great pride in exceptional customer service and our team will get in touch with you shortly to answer all your questions.</p><p>In case you do need to get in touch with us urgently, please do call us at +91 22 6253 8600 or email us at <a href='mailto:customercare@redcarpetassist.com?Subject=Thank You for enquiring with RedCarpet Assist' target='_top'>customercare@redcarpetassist.com</a>. We work Monday to Saturday, 10 am to 8pm Indian Standard Time (GMT +5.30)</p><p>In the meanwhile, please do check our reviews on Facebook and Google.</p><p>We look forward to welcoming you as our customer.</p><p>Your <span style='color:#ED1C24;'>RedCarpet</span> Assist Team.</p><p><i>Add support@redcarpetassist.com to your address book to ensure that our mails reach your Inbox.</i></p>";
+			$sendmail->sendEmail($from, $to,null,null,$subject, $content);
+			$error['status'] = "success";
+			$error['msg'] = "Send Mail Successful";
+		}else{
+			$error['status'] = "fail";
+			$error['msg'] = "Somthing Worng not Sending Mail";
+		}
+
+		return json_encode($error);exit;
+	}
+
+	public function ajaxpaymentcancelmailer(Request $request)
+	{
+
+		$getrequest = $request->all();
+		$error = array();
+		// echo "<pre>";print_r($getrequest);exit;
+		$sendmail = new ApplicationController;
+		if(!empty($getrequest['email'])){
+			$to = $getrequest['email'];
+			$subject = "We received a Payment Cancellation Update";
+			$from = "support@redcarpetassist.com";
+			$name = $getrequest['username'];
+	        $content = "Dear ".$name.",<br><p>Thank you for your interest in our services. We notice that you changed your mind while making the payment. Our services have been highly recommended by other customers and you can read the reviews <a href='https://www.redcarpetassist.com/testimonial' title='RedCarpet Assist'>here</a></p><p>Our team will get in touch with you shortly to help you through your transaction.</p><p>In case you do need to get in touch with us urgently, please do call us at +91 22 6253 8600 or email us at <a href='mailto:customercare@redcarpetassist.com?Subject=We received a Payment Cancellation Update' target='_top'>customercare@redcarpetassist.com</a>. We work Monday to Saturday, 10 am to 8pm Indian Standard Time (GMT +5.30)</p><p>Your <span style='color:#ED1C24;'>RedCarpet</span> Assist Team.</p><p><i>Add support@redcarpetassist.com to your address book to ensure that our mails reach your Inbox.</i></p>";
 			$sendmail->sendEmail($from, $to,null,null,$subject, $content);
 			$error['status'] = "success";
 			$error['msg'] = "Send Mail Successful";

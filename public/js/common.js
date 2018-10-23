@@ -45,6 +45,37 @@ $(function () {
         //RCAV1-51 - END
 
 
+        //RCAV1-85 - START
+        if ($("#previous_surname").length > 0) {
+            $('#previous_surname').addClass('divhide');
+            $('#previous_surname').removeClass('divshow');
+            $('input[name="previous_surname"').removeAttr('required');
+        }
+
+        if ($("#previous_name").length > 0) {
+            $('#previous_name').addClass('divhide');
+            $('#previous_name').removeClass('divshow');
+            $('input[name="previous_name"]').removeAttr('required');
+        }
+
+
+        if ($("#grandparent_details").length > 0) {
+            $('#grandparent_details').hide();
+            $('input[name="grandparent_details"]').removeAttr('required');
+        }
+
+
+
+            
+
+        //RCAV1-85 - END
+
+
+            
+
+
+
+
     });
 
 
@@ -900,7 +931,7 @@ $(function () {
             arrival_date: {
                 required: true
             },
-            airport_code_text: {
+            airport_code: {
                 required: true
             },
             frontpage: {
@@ -914,6 +945,9 @@ $(function () {
                 accept: "image/jpeg, image/jpg",
                 extension: "jpg,jpeg"
                 //accept: "video/mp4"
+            },
+            residing_code: {
+                required: true
             }
         },
         messages: {
@@ -932,8 +966,8 @@ $(function () {
             arrival_date: {
                 required: "Select Arrival Date"
             },
-            airport_code_text: {
-                required: "Select Airport Arrival"
+            airport_code: {
+                required: "Select port of arrival"
             },
             frontpage: {
                 required: 'Upload Front Passport Image',
@@ -942,7 +976,11 @@ $(function () {
             photograph: {
                 required: 'Upload Photograph Image',
                 accept: "Allow Only jpeg/jpg file"
-            }
+            },
+            residing_code: {
+                required: "Select residing in"
+            },
+            
         },
         highlight: function (element, errorClass, validClass) {
             // console.log("highlight");
@@ -1007,10 +1045,10 @@ $(function () {
             refer_flag: {
                 required: true
             },
-            gender_text: {
+            gender: {
                 required: true
             },
-            cob_text: {
+            cob: {
                 required: true
             },
 
@@ -1023,21 +1061,21 @@ $(function () {
                 required: true,
                 alphanumeric: true
             },
-            religion_code_text: {
+            religion_code: {
                 required: true
             },
             visible_marks: {
                 required: true,
                 alpha: true
             },
-            qualification_text: {
+            qualification: {
                 required: true
             },
             nationality: {
                 required: true
             },
             aquired_nation: {
-                // required: true
+                 required: true
             },
             Passport_number: {
                 required: true,
@@ -1082,7 +1120,7 @@ $(function () {
             gender: {
                 required: "Please select your gender"
             },
-            cob_text: {
+            cob: {
                 required: "Please select your country of birth"
             },
 
@@ -1095,14 +1133,14 @@ $(function () {
                 required: "Please enter your Citizenship/National Id number",
                 alphanumeric: "Please enter alphabet or numbers only"
             },
-            religion_code_text: {
+            religion_code: {
                 required: "Please select your religion"
             },
             visible_marks: {
                 required: "If no visible mark then put NA",
                 alpha: "Please enter alphabet or spaces only"
             },
-            qualification_text: {
+            qualification: {
                 required: "Please select your educational qualification"
             },
             nationality: {
@@ -1558,12 +1596,10 @@ $(function () {
     $('input[name="grandparent_flag1"]').on('change', function () {
         var value = $(this).val();
         if (value == "Y") {
-            $('#grandparent_dtls').addClass('divshow');
-            $('#grandparent_dtls').removeClass('divhide');
+            $('#grandparent_details').show();
             $('input[name="grandparent_details"]').attr('required', '');
         } else {
-            $('#grandparent_dtls').addClass('divhide');
-            $('#grandparent_dtls').removeClass('divshow');
+            $('#grandparent_details').hide();
             $('input[name="grandparent_details"]').removeAttr('required');
             $('#frmreviewind input[name="grandparent_details"]').val('');
         }

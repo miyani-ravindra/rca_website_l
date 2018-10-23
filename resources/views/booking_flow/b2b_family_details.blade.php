@@ -143,12 +143,11 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                              Phone No.
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">Phone No. </div>
                                           </div>
                                        </div>
                                        <div class="input-control">
-                                          <input type="text" name="pres_phone" required="">
+                                          <input type="text" name="pres_phone">
                                           <div class="press_enter"></div>
                                        </div>
                                     </div>
@@ -219,7 +218,6 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                              Village/Town/City
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">Village/Town/City</div>
                                           </div>
                                        </div>
@@ -234,7 +232,6 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                              State/Province/District
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">State/Province/District </div>
                                           </div>
                                        </div>
@@ -270,13 +267,7 @@
                                           </div>
                                        </div>
                                        <div class="input-control outerInFoc">
-                                          <!--select class="__select_drop" name="father_nationality" required="">
-                                             <option value="">Select Nationality</option>
-                                             @foreach($getcountry as $val)
-                                             <option value="{{$val->country_id}}">{{$val->country_name}}</option>
-                                             @endforeach
-                                          </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="father_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -292,24 +283,17 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                              Father Details
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">Previous Nationality </div>
                                           </div>
                                        </div>
                                        <div class="input-control outerInFoc">
-                                          <!--select class="__select_drop" name="father_previous_nationality">
-                                             <option value="">Select Nationality</option>
-                                             @foreach($getcountry as $val)
-                                             <option value="{{$val->country_id}}">{{$val->country_name}}</option>
-                                             @endforeach
-                                          </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="father_previous_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
                                             @endforeach
                                           </ul>
-                                          <input type="hidden" name="father_previous_nationality" class="inputH" value="" required="">
+                                          <input type="hidden" name="father_previous_nationality" class="inputH" value="">
                                           <div class="press_enter"></div>
                                         </div>
                                         <div class="outerclick"></div>
@@ -344,7 +328,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="father_country_of_birth_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -388,7 +372,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="mother_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -404,7 +388,6 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                              Mother's Details
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">Previous Nationality</div>
                                           </div>
                                        </div>
@@ -415,13 +398,13 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                       <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                       <input type="text" name="mother_previous_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
                                             @endforeach
                                           </ul>
-                                          <input type="hidden" name="mother_previous_nationality" class="inputH" value="" required="">
+                                          <input type="hidden" name="mother_previous_nationality" class="inputH" value="">
                                           <div class="press_enter"></div>
                                         </div>
                                         <div class="outerclick"></div>
@@ -456,7 +439,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="mother_country_of_birth_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -529,7 +512,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="spouse_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -545,7 +528,6 @@
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
                                             Spouse's Details
-                                             <span class="strike">*</span>
                                              <div class="qs_sub">Previous Nationality </div>
                                           </div>
                                        </div>
@@ -557,7 +539,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                         <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                         <input type="text" name="spouse_previous_nationality_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -598,7 +580,7 @@
                                              <option value="{{$val->country_id}}">{{$val->country_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" required="" />
+                                          <input type="text" name="spouse_country_of_birth_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             @foreach($getcountry as $row)
                                                 <li data-val="{{$row->country_id}}">{{$row->country_name}}</li>
@@ -704,7 +686,7 @@
                                              <option value="F">Father</option>
                                              <option value="S">Spouse</option>
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" />
+                                          <input type="text" name="occ_flag_text" class="__select_drop inputF" autocomplete="off" />
                                           <ul class="hiddenul">
                                             <li data-val="">Select...</li>
                                             <li data-val="F">Father</li>
@@ -787,7 +769,7 @@
                                              <option value="{{$val->id}}">{{$val->occupation_name}}</option>
                                              @endforeach
                                           </select-->
-                                          <input type="text" class="__select_drop inputF" autocomplete="off" />
+                                          <input type="text" name="occ_flag_text_second" class="__select_drop inputF" autocomplete="off" />
                                           <ul class="hiddenul">
                                             <li>Select Occupation</li>
                                              @foreach($getpropfession as $val)
