@@ -2744,8 +2744,6 @@ $(function () {
         var text = $('#travel_to option:selected').text();
         var country_code = $("#travel_to option:selected").attr('countrycode');
         $('#travel_to_text').val(text);
-        // console.log(country_code);
-        // if (value != "India") { $("#c_reside").hide(); $("#c_select").hide(); $("#c_box").show()}
         $('input[name="country_code"]').val(country_code);
         $.ajaxSetup({
             headers: {
@@ -2790,16 +2788,14 @@ $(function () {
                         .attr("value", key)
                         .text(value));
             });
-            // $('#residing_in').append($("<option></option>")
-            //     .attr("value", "IND")
-            //     .text("India"));
         } else if (country_code == "MYS") {
             //$('#citizen_to').attr('disabled', '');
-            $('#residing_in').attr('disabled', '');
-            $('#lp_link').css('display', 'inline-block');
-            $('#lp_link').attr('href', '/rca_website_l/public/malaysia');
-            $('#btn_step1').css('display', 'none');
-            $("#c_reside").hide();
+            //$('#lp_link').css('display', 'inline-block');
+           // localStorage.setItem("lp_links", '/rca_website_l/public/malaysia');
+           // $('#lp_link').attr('href', '/rca_website_l/public/malaysia');
+            //$('#btn_step1').css('display', 'none');
+
+            $('#evisaForm').attr('action','malaysia');
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
@@ -2811,11 +2807,10 @@ $(function () {
             //$("#c_box").show();
         } else if (country_code == "KHM") {
             //$('#citizen_to').attr('disabled', '');
-            $('#residing_in').attr('disabled', '');
-            $('#lp_link').css('display', 'inline-block');
-            $('#lp_link').attr('href', '/rca_website_l/public/cambodia');
-            $('#btn_step1').css('display', 'none');
-            $("#c_reside").hide();
+            //$('#lp_link').css('display', 'inline-block');
+            //$('#lp_link').attr('href', '/rca_website_l/public/cambodia');
+            //$('#btn_step1').css('display', 'none');
+            $('#evisaForm').attr('action','cambodia');
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
@@ -2827,11 +2822,10 @@ $(function () {
             //$("#c_box").show();
         } else if (country_code == "OMN") {
             //$('#citizen_to').attr('disabled', '');
-            $('#residing_in').attr('disabled', '');
-            $('#lp_link').css('display', 'inline-block');
-            $('#lp_link').attr('href', '/rca_website_l/public/oman');
-            $('#btn_step1').css('display', 'none');
-            $("#c_reside").hide();
+            //$('#lp_link').css('display', 'inline-block');
+            //$('#lp_link').attr('href', '/rca_website_l/public/oman');
+            //$('#btn_step1').css('display', 'none');
+            $('#evisaForm').attr('action','oman');
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
@@ -2843,11 +2837,10 @@ $(function () {
             //$("#c_box").show();
         } else if (country_code == "TUR") {
             //$('#citizen_to').attr('disabled', '');
-            $('#residing_in').attr('disabled', '');
-            $('#lp_link').css('display', 'inline-block');
-            $('#lp_link').attr('href', '/rca_website_l/public/turkey');
-            $('#btn_step1').css('display', 'none');
-            $("#c_reside").hide();
+            //$('#lp_link').css('display', 'inline-block');
+            //$('#lp_link').attr('href', '/rca_website_l/public/turkey');
+            //$('#btn_step1').css('display', 'none');
+            $('#evisaForm').attr('action','turkey');
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
@@ -2859,11 +2852,10 @@ $(function () {
             //$("#c_box").show();
         } else if (country_code == "VNM") {
             //$('#citizen_to').attr('disabled', '');
-            $('#residing_in').attr('disabled', '');
-            $('#lp_link').css('display', 'inline-block');
-            $('#lp_link').attr('href', '/rca_website_l/public/vietnam');
-            $('#btn_step1').css('display', 'none');
-            $("#c_reside").hide();
+            //$('#lp_link').css('display', 'inline-block');
+            //$('#lp_link').attr('href', '/rca_website_l/public/vietnam');
+            //$('#btn_step1').css('display', 'none');
+            $('#evisaForm').attr('action','vietnam');
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
@@ -2882,9 +2874,7 @@ $(function () {
                         .attr("value", key)
                         .text(value));
             });
-            // $('#residing_in').append($("<option></option>")
-            //     .attr("value", "IND")
-            //     .text("India"));
+
         } else {
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
@@ -2895,16 +2885,47 @@ $(function () {
             });
             $('#evisaForm').attr('action','search-country/'+country_code);
             $('#citizen_to').removeAttr('disabled');
-            $('#residing_in').removeAttr('disabled');
             $('#lp_link').css('display', 'none');
             $('#btn_step1').css('display', 'inline-block');
-
-            $("#c_reside").show();
             $("#c_select").show();
-
-            // $("#c_box").hide();
         }
+
     });
+
+
+    
+
+    $("#evisaForm").submit(function(e){
+        
+        var  travel_to      = $("#travel_to").val();
+        var  citizen_to     = $("#citizen_to").val();
+        var  residing_in    = $("#residing_in").val();
+
+        var malaysia_allowed_countries_arr = ['IND','MYS']; 
+
+        residing_in = "IDND";
+
+        var not_eligible_error          = 'Travelling To and Residing In destinations should not be the same.';
+        var sorry_message               = 'Sorry! <br> We currently do not service for the combination that you have selected. <br> However, we are adding multiple countries and combinations to our website. Stay tuned for more information.';
+
+        if( travel_to == "Malaysia" && citizen_to == "IND" &&  residing_in == "MYS" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Malaysia" && citizen_to == "IND" &&  residing_in == "IND" ){
+            return;
+        }else if( travel_to == "Malaysia" && citizen_to == "IND" &&  malaysia_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            $("#errorMessageForEvisaSearch").html(sorry_message);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }
+
+        
+
+          
+
+    });
+
 
     //checkCookie();
 

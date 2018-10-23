@@ -87,6 +87,30 @@
                                                     </select>
                                                 </div>
                                             </div>
+
+                                            <!-- RCAV1-51 - START -->
+                                                <div id="errorModalForEvisaSearchEngine" class="modal fade" role="dialog">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title"> 
+                                                            <p  class ='text-center' style='color:red;'>Message</p>
+                                                        </h4>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <p id="errorMessageForEvisaSearch" class ='text-center' style='color:red;'></p>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <a id="evisaSearchEngineError" class="__btn" href="{{ URL::to('/') }}">Ok</a><!-- RCAV1-53-->
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <!-- RCAV1-51 - END -->
+
+
+
                                         </div>
                                         <div class="col-md-4">
                                             <div class="__proceed">
