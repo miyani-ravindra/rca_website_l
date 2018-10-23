@@ -1,0 +1,3 @@
+/public/ocr-upload/*
+/public/doc-upload/*
+.env
