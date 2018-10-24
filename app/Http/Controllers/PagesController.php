@@ -594,6 +594,12 @@ class PagesController extends ApplicationController {
     	return view('landingpages/vietnam');
 	}
 
+	//RCAV1-168 - START
+	public function lpoman(){
+    	return view('landingpages/oman');
+	}
+	//RCAV1-168 - END
+
 	//RCAS-2 START
 	public function get_all_country(){
 
