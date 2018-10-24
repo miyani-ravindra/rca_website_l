@@ -2875,7 +2875,22 @@ $(function () {
                         .text(value));
             });
 
-        } else {
+        }else if (country_code == "ARE") {
+            //$('#citizen_to').attr('disabled', '');
+            //$('#lp_link').css('display', 'inline-block');
+            //$('#lp_link').attr('href', '/rca_website_l/public/vietnam');
+            //$('#btn_step1').css('display', 'none');
+            $('#evisaForm').attr('action','uae');
+            $('#citizen_to').children('option:not(:first)').remove();
+            $.each(citizen_to_oth, function (key, value) {
+                $('#citizen_to')
+                    .append($("<option></option>")
+                        .attr("value", key)
+                        .text(value));
+            });
+            //$("#c_select").hide();
+            //$("#c_box").show();
+        }else {
             $('#citizen_to').children('option:not(:first)').remove();
             $.each(citizen_to_oth, function (key, value) {
                 $('#citizen_to')
