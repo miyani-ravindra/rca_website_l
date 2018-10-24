@@ -2897,16 +2897,23 @@ $(function () {
 
     $("#evisaForm").submit(function(e){
         
-        var  travel_to      = $("#travel_to").val();
-        var  citizen_to     = $("#citizen_to").val();
-        var  residing_in    = $("#residing_in").val();
+        var  travel_to                          = $("#travel_to").val();
+        var  citizen_to                         = $("#citizen_to").val();
+        var  residing_in                        = $("#residing_in").val();
+        var malaysia_allowed_countries_arr      = ['IND','MYS'];
+        var hongkong_allowed_countries_arr      = ['IND','HKG'];
+        var cambodia_allowed_countries_arr      = ['IND','KHM'];
+        var oman_allowed_countries_arr          = ['IND','OMN'];
+        var turkey_allowed_countries_arr        = ['IND','TUR'];
+        var vietnam_allowed_countries_arr       = ['IND','VNM'];
+        var srilanka_allowed_countries_arr      = ['IND','LKA'];
+        var uae_allowed_countries_arr           = ['IND','ARE'];
+        var india_allowed_countries_arr         = ['IND'];
+        var travel_to_allowed_countries_arr     = ['Malaysia','China- Sar Hongkong','Cambodia','Oman','Turkey','Vietnam','Sri Lanka','United Arab Emirates','India'];
+        var residing_in_allowed_countries_arr   = ['MYS','IND','HKG','KHM','OMN','TUR','VNM','LKA','ARE'];
 
-        var malaysia_allowed_countries_arr = ['IND','MYS']; 
-
-        residing_in = "IDND";
-
-        var not_eligible_error          = 'Travelling To and Residing In destinations should not be the same.';
-        var sorry_message               = 'Sorry! <br> We currently do not service for the combination that you have selected. <br> However, we are adding multiple countries and combinations to our website. Stay tuned for more information.';
+        var not_eligible_error                  = 'Travelling To and Residing In destinations should not be the same.';
+        var sorry_message                       = 'Sorry! <br> We currently do not service for the combination that you have selected. <br> However, we are adding multiple countries and combinations to our website. Stay tuned for more information.';
 
         if( travel_to == "Malaysia" && citizen_to == "IND" &&  residing_in == "MYS" ){
             $("#errorMessageForEvisaSearch").html(not_eligible_error);
@@ -2918,12 +2925,79 @@ $(function () {
             $("#errorMessageForEvisaSearch").html(sorry_message);
             $('#errorModalForEvisaSearchEngine').modal('show');
             e.preventDefault();
+        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && residing_in == "HKG" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && residing_in == "IND" ){
+            return;
+        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && hongkong_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "Cambodia" && citizen_to == "IND" &&  residing_in == "KHM" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Cambodia" && citizen_to == "IND" &&  residing_in == "IND" ){
+            return;
+        }else if( travel_to == "Cambodia" && citizen_to == "IND" && cambodia_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "Oman" && citizen_to == "IND" &&  residing_in == "OMN" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Oman" && citizen_to == "IND" &&  oman_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "Turkey" && citizen_to == "IND" &&  residing_in == "TUR" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Turkey" && citizen_to == "IND" &&  residing_in == "IND" ){
+            return;
+        }else if( travel_to == "Turkey" && citizen_to == "IND" &&  turkey_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "Vietnam" && citizen_to == "IND" &&  residing_in == "VNM" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Vietnam" && citizen_to == "IND" &&  residing_in == "IND" ){
+           return;
+        }else if( travel_to == "Vietnam" && citizen_to == "IND" &&  vietnam_allowed_countries_arr.indexOf(residing_in) === -1 ){
+           return;
+        }else if( travel_to == "Sri Lanka" && citizen_to == "IND" &&  residing_in == "LKA" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "Sri Lanka" && citizen_to == "IND" &&  residing_in == "IND" ){
+            return;
+        }else if( travel_to == "Sri Lanka" && citizen_to == "IND" &&  srilanka_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "United Arab Emirates" && citizen_to == "IND" &&  residing_in == "ARE" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "United Arab Emirates" && citizen_to == "IND" &&  residing_in == "IND" ){
+            return;
+        }else if( travel_to == "United Arab Emirates" && citizen_to == "IND" &&  uae_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            $("#errorMessageForEvisaSearch").html(sorry_message);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "India" && citizen_to == "UK" &&  residing_in == "IND" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "India" && citizen_to == "UK" &&  india_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to == "India" && citizen_to == "USA" &&  residing_in == "IND" ){
+            $("#errorMessageForEvisaSearch").html(not_eligible_error);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
+        }else if( travel_to == "India" && citizen_to == "USA" &&  india_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            return;
+        }else if( travel_to_allowed_countries_arr.indexOf(travel_to) === -1  && citizen_to == "IND" &&  residing_in_allowed_countries_arr.indexOf(residing_in) === -1 ){
+            $("#errorMessageForEvisaSearch").html(sorry_message);
+            $('#errorModalForEvisaSearchEngine').modal('show');
+            e.preventDefault();
         }
-
-        
-
-          
-
     });
 
 
