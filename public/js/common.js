@@ -2922,9 +2922,12 @@ $(function () {
         }else if( travel_to == "Malaysia" && citizen_to == "IND" &&  residing_in == "IND" ){
             return;
         }else if( travel_to == "Malaysia" && citizen_to == "IND" &&  malaysia_allowed_countries_arr.indexOf(residing_in) === -1 ){
-            $("#errorMessageForEvisaSearch").html(sorry_message);
+           
+            $('#evisaForm').attr('action','sorry');
+            return;
+            /*$("#errorMessageForEvisaSearch").html(sorry_message);
             $('#errorModalForEvisaSearchEngine').modal('show');
-            e.preventDefault();
+            e.preventDefault();*/
         }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && residing_in == "HKG" ){
             $("#errorMessageForEvisaSearch").html(not_eligible_error);
             $('#errorModalForEvisaSearchEngine').modal('show');
@@ -2978,9 +2981,11 @@ $(function () {
         }else if( travel_to == "United Arab Emirates" && citizen_to == "IND" &&  residing_in == "IND" ){
             return;
         }else if( travel_to == "United Arab Emirates" && citizen_to == "IND" &&  uae_allowed_countries_arr.indexOf(residing_in) === -1 ){
-            $("#errorMessageForEvisaSearch").html(sorry_message);
+            /*$("#errorMessageForEvisaSearch").html(sorry_message);
             $('#errorModalForEvisaSearchEngine').modal('show');
-            e.preventDefault();
+            e.preventDefault();*/
+            $('#evisaForm').attr('action','sorry');
+            return;
         }else if( travel_to == "India" && citizen_to == "UK" &&  residing_in == "IND" ){
             $("#errorMessageForEvisaSearch").html(not_eligible_error);
             $('#errorModalForEvisaSearchEngine').modal('show');
@@ -2994,9 +2999,11 @@ $(function () {
         }else if( travel_to == "India" && citizen_to == "USA" &&  india_allowed_countries_arr.indexOf(residing_in) === -1 ){
             return;
         }else if( travel_to_allowed_countries_arr.indexOf(travel_to) === -1  && citizen_to == "IND" &&  residing_in_allowed_countries_arr.indexOf(residing_in) === -1 ){
-            $("#errorMessageForEvisaSearch").html(sorry_message);
+            /*$("#errorMessageForEvisaSearch").html(sorry_message);
             $('#errorModalForEvisaSearchEngine').modal('show');
-            e.preventDefault();
+            e.preventDefault();*/
+            $('#evisaForm').attr('action','sorry');
+            return;
         }
     });
 

@@ -600,6 +600,15 @@ class PagesController extends ApplicationController {
 	}
 	//RCAV1-168 - END
 
+
+	//RCAV1-168 - START
+	public function sorrypage(){
+    	return view('pages/sorry');
+	}
+	//RCAV1-168 - END
+
+
+
 	//RCAS-2 START
 	public function get_all_country(){
 

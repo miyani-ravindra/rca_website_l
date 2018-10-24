@@ -8,7 +8,7 @@
                 <div class="col-md-12">
                     <div class="paddingtb_50">
                         <ul class="tabs_z">
-                            <li class="__current" data-tab="tab-1" id="e_visa_tab">
+                            <li class="__current" data-tab="tab-1">
                                 <embed src="{{ URL::to('/') }}/svg/ic_evisa.svg" alt="" class="ShowInMobile" width="80" />
                                 <span class="__title">eVisa</span>
                                 <img src="{{ URL::to('/') }}/svg/E-Visa.svg" alt="" class="HideInMobile" width="80" />
@@ -30,96 +30,11 @@
                             <!-- <div class="col-md-12">
                                 <a href="{{URL::to('/')}}/evisa/completeform" class="btn btn-primary">Complete Partially Filled Form</a>
                             </div> -->
-                            <div class="__form_wrapper">
-                                <form name="evisaForm" id="evisaForm" method="POST" action="">
-                                    <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
-                                    <input type="hidden" name="travel_to_text" id="travel_to_text" value="India">
-                                    <input type="hidden" name="citizen_to_text" id="citizen_to_text" value="">
-                                    <input type="hidden" name="utm_source" id="utm_source" value="google" />
-                                    <input type="hidden" name="utm_medium" id="utm_medium" value="cpc" />
-                                    <input type="hidden" name="utm_campaign" id="utm_campaign" value="Evisa-Application-Home" />
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <div class="__super_select">
-                                            <label class="label">I am Traveling to <span class="_astrik">*</span></label>
-                                            <div class="__icon">
-                                                <img src="{{ URL::to('/') }}/svg/airplane-up.svg" alt="" width="20" />
-                                            </div>
-                                            <div class="__select_input">
-                                                <select class="select" id="travel_to" name="travel_to" required="required">
-                                                    @if(!empty($get_country))
-                                                        @foreach($get_country as $val)
-                                                            <option value="{{$val->country_name}}" countrycode="{{$val->country_code}}" {{$val->country_code=="IND"?"selected":NULL}}>{{$val->country_name}}</option>
-                                                        @endforeach
-                                                    @endif
-                                                </select>
-                                                <input type="hidden" name="country_code" value="IND">
-                                            </div>
-                                            </div>
-                                            <div class="__super_select">
-                                            <label class="label">I am Citizen of <span class="_astrik">*</span></label>
-                                            <div class="__icon">
-                                                <img src="{{ URL::to('/') }}/svg/citizen.svg" alt="" width="16" />
-                                            </div>
-                                            <div class="__select_input" id = "c_select">
-                                                <div class="__select_input">
-                                                    <select id="citizen_to" name="citizen_to" required="required" class="select">
-                                                        <option selected="true" value="">Select Citizen</option>
-                                                        <option value="USA">United States of America</option>
-                                                        <option value="UK">United Kingdom</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                             <div class="__select_input" id ="c_box" style="display: none;">
-                                                <div class="__select_input">
-                                                    <input type="text" name="c_india" id="c_india" value="India" readonly>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <div class="__super_select" id="c_reside">
-                                                <label class="label">I am Residing in <span class="_astrik">*</span></label>
-                                                <div class="__icon">
-                                                    <img src="{{ URL::to('/') }}/svg/location.svg" alt="" width="14" />
-                                                </div>
-                                                <div class="__select_input">
-                                                    <select class="select" id="residing_in" name="residing_in" required="required">
-                                                        <option selected="true" value="">Select Residing in</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <!-- RCAV1-168 - START -->
-                                            <div id="errorModalForEvisaSearchEngine" class="modal fade" role="dialog">
-                                              <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title"> 
-                                                        <p  class ='text-center' style='color:red;'>Message</p>
-                                                    </h4>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                    <p id="errorMessageForEvisaSearch" class ='text-center' style='color:red;'></p>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <a id="evisaSearchEngineError" class="__btn" href="{{ URL::to('/') }}">Ok</a><!-- RCAV1-53-->
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <!-- RCAV1-168 - END -->
-
-
-
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="__proceed">
-                                                <button type="submit" name="btn_step1" id="btn_step1" class="__btn">PROCEED</button>
-                                                <a href="#" id="lp_link" style="display: none;" class="__btn">PROCEED</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="__form_wrapper text-center">
+                                <h1 class="__heading_h4 paddingtb_50 text-center lg">Sorry!!</h1>
+                                <p class="__sry_txt">We currently do not provide a visa for the country you are travelling to.<br />However, we are adding multiple countries to our bucket.</p>
+                                <h4>Stay tuned for more information.</h4>
+                                <a href="{{URL::to('/')}}" class="btn __btn">Go Back</a>
                             </div>
                         </div>
                         <div id="tab-2" class="tabs_z_content">
@@ -682,42 +597,42 @@
                         <div class="col-md-2 col-md-offset-1">
                             <h4 class="__sm">FOR UK &amp; US CITIZENS</h4>
                             <ul class="__country_list">
-                            <li>
-                                   <a href="https://www.redcarpetassist.com/evisa/india"> <img src="{{ URL::to('/') }}/svg/india.svg" alt="" width="70">
-                                    <span>INDIA</span></a>
+                                <li>
+                                    <img src="{{ URL::to('/') }}/svg/india.svg" alt="" width="70">
+                                    <span>INDIA</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-9">
                             <h4 class="__sm">FOR INDIAN CITIZENS</h4>
                             <ul class="__country_list _bdr_left">
-                            <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/combodia"><img src="{{ URL::to('/') }}/svg/cambodia.svg" alt="" width="70">
-                                    <span>CAMBODIA</span></a>
+                                <li>
+                                    <img src="{{ URL::to('/') }}/svg/cambodia.svg" alt="" width="70">
+                                    <span>CAMBODIA</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/hongkong"><img src="{{ URL::to('/') }}/svg/hong-kong.svg" alt="" width="70">
-                                    <span>HONG KONG</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/hong-kong.svg" alt="" width="70">
+                                    <span>HONG KONG</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/malaysia"><img src="{{ URL::to('/') }}/svg/malaysia.svg" alt="" width="70">
-                                    <span>MALAYSIA</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/malaysia.svg" alt="" width="70">
+                                    <span>MALAYSIA</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/oman"><img src="{{ URL::to('/') }}/svg/oman.svg" alt="" width="70">
-                                    <span>OMAN</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/oman.svg" alt="" width="70">
+                                    <span>OMAN</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/srilanka"><img src="{{ URL::to('/') }}/svg/sri-lanka.svg" alt="" width="70">
-                                    <span>SRI LANKA</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/sri-lanka.svg" alt="" width="70">
+                                    <span>SRI LANKA</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/turkey"><img src="{{ URL::to('/') }}/svg/turkey.svg" alt="" width="70">
-                                    <span>TURKEY</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/turkey.svg" alt="" width="70">
+                                    <span>TURKEY</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.redcarpetassist.com/evisa/vietnam"><img src="{{ URL::to('/') }}/svg/vietnam.svg" alt="" width="70">
-                                    <span>VIETNAM</span></a>
+                                    <img src="{{ URL::to('/') }}/svg/vietnam.svg" alt="" width="70">
+                                    <span>VIETNAM</span>
                                 </li>
                             </ul>
                         </div>

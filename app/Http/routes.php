@@ -136,6 +136,8 @@ Route::match(['get', 'post'], 'srilanka', 'PagesController@lpsrilanka');
 Route::match(['get', 'post'], 'turkey', 'PagesController@lpturkey');
 Route::match(['get', 'post'], 'vietnam', 'PagesController@lpvietnam');
 Route::match(['get', 'post'], 'oman', 'PagesController@lpoman');
+Route::match(['get', 'post'], 'uae', 'PagesController@lpuae');
+Route::match(['get', 'post'], 'singapore', 'PagesController@lpsingapore');
 
 Route::get('Meetnassist/ccavenue', 'MeetnassistController@requestCCAvenue');
 Route::post('Meetnassist/res', 'MeetnassistController@responseCCAvenue');
@@ -196,3 +198,4 @@ Route::match(['get', 'post'],'ajaxautosavefinalform', 'IndiaEvisaapplicationCont
 
 Route::match(['get', 'post'],'search-country/{ccode}', 'PagesController@searchservicecountry');
 Route::match(['get', 'post'],'extract-services-country', 'PagesController@extractservicecountry');
+Route::match(['get', 'post'], 'sorry', 'PagesController@sorrypage');//RCAV1-168
