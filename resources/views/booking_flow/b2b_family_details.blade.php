@@ -199,7 +199,7 @@
                                              </label>
                                        </div>
                                     </div>
-                                    <div class="input-block">
+                                    <div class="input-block perm_addr">
                                        <div class="labels">
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
@@ -213,7 +213,7 @@
                                           <div class="press_enter"></div>
                                        </div>
                                     </div>
-                                    <div class="input-block">
+                                    <div class="input-block perm_addr">
                                        <div class="labels">
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
@@ -227,7 +227,7 @@
                                           <div class="press_enter"></div>
                                        </div>
                                     </div>
-                                    <div class="input-block">
+                                    <div class="input-block perm_addr">
                                        <div class="labels">
                                           <div class="qs_list"></div>
                                           <div class="qs_body">
@@ -647,7 +647,7 @@
                                              @endforeach
                                           </select-->
                                           <input type="text" class="__select_drop inputF" id="pres_occ" name="pres_occ"  autocomplete="off" required="" />
-                                          <ul class="hiddenul">
+                                          <ul class="hiddenul pre_occupation_ul">
                                             @foreach($getpropfession as $val)
                                               <li data-val="{{$val->id}}">{{$val->occupation_name}}</li>
                                             @endforeach 
@@ -686,7 +686,7 @@
                                              <option value="F">Father</option>
                                              <option value="S">Spouse</option>
                                           </select-->
-                                          <input type="text" name="occ_flag_text" class="__select_drop inputF" autocomplete="off" />
+                                          <input type="text" name="occ_flag_text" class="__select_drop inputF" autocomplete="off" required="" />
                                           <ul class="hiddenul">
                                             <li data-val="">Select...</li>
                                             <li data-val="F">Father</li>
