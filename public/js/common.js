@@ -2936,7 +2936,7 @@ $(function () {
         var india_allowed_countries_arr         = ['IND'];
         var singapore_allowed_countries_arr     = ['IND','SGP'];
         var travel_to_allowed_countries_arr     = ['Malaysia','China- Sar Hongkong','Cambodia','Oman','Turkey','Vietnam','Sri Lanka','United Arab Emirates','India','Singapore'];
-        var residing_in_allowed_countries_arr   = ['MYS','IND','HKG','KHM','OMN','TUR','VNM','LKA','ARE','SGP'];
+        var residing_in_allowed_countries_arr   = ['MYS','HKG','KHM','OMN','TUR','VNM','LKA','ARE','SGP'];
 
         var not_eligible_error                  = 'Travelling To and Residing In destinations should not be the same.';
         var sorry_message                       = 'Sorry! <br> We currently do not service for the combination that you have selected. <br> However, we are adding multiple countries and combinations to our website. Stay tuned for more information.';

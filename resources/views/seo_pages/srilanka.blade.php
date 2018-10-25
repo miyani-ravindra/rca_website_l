@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12 __seo_header">
                 <h1 class="__heading_black">Sri Lanka eVisa</h1>
-                <a href="{{ url('/') }}" id="book_visa" class="__btn __btn_submit __active pull-right" data-val="Srilanka">BOOK NOW</a>
+                <a href="{{ url('/srilanka') }}" id="book_visa" class="__btn __btn_submit __active pull-right" data-val="Srilanka">BOOK NOW</a>
             </div>
             <div class="col-md-12">
                 <div class="__content_row">
