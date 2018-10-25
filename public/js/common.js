@@ -2935,7 +2935,7 @@ $(function () {
         var uae_allowed_countries_arr           = ['IND','ARE'];
         var india_allowed_countries_arr         = ['IND'];
         var singapore_allowed_countries_arr     = ['IND','SGP'];
-        var travel_to_allowed_countries_arr     = ['Malaysia','China- Sar Hongkong','Cambodia','Oman','Turkey','Vietnam','Sri Lanka','United Arab Emirates','India','Singapore'];
+        var travel_to_allowed_countries_arr     = ['Malaysia','Hong Kong','Cambodia','Oman','Turkey','Vietnam','Sri Lanka','United Arab Emirates','India','Singapore'];
         var residing_in_allowed_countries_arr   = ['MYS','HKG','KHM','OMN','TUR','VNM','LKA','ARE','SGP'];
 
         var not_eligible_error                  = 'Travelling To and Residing In destinations should not be the same.';
@@ -2956,13 +2956,13 @@ $(function () {
             /*$("#errorMessageForEvisaSearch").html(sorry_message);
             $('#errorModalForEvisaSearchEngine').modal('show');
             e.preventDefault();*/
-        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && residing_in == "HKG" ){
+        }else if( travel_to == "Hong Kong" && citizen_to == "IND" && residing_in == "HKG" ){
             $("#errorMessageForEvisaSearch").html(not_eligible_error);
             $('#errorModalForEvisaSearchEngine').modal('show');
             e.preventDefault();
-        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && residing_in == "IND" ){
+        }else if( travel_to == "Hong Kong" && citizen_to == "IND" && residing_in == "IND" ){
             return;
-        }else if( travel_to == "China- Sar Hongkong" && citizen_to == "IND" && hongkong_allowed_countries_arr.indexOf(residing_in) === -1 ){
+        }else if( travel_to == "Hong Kong" && citizen_to == "IND" && hongkong_allowed_countries_arr.indexOf(residing_in) === -1 ){
             return;
         }else if( travel_to == "Cambodia" && citizen_to == "IND" &&  residing_in == "KHM" ){
             $("#errorMessageForEvisaSearch").html(not_eligible_error);
