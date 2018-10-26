@@ -69,5 +69,12 @@ class EvisaController extends ApplicationController {
 	{	
 		return view('seo_pages/vietnam');				
 	}
+
+	//RCAV1-172 - START
+	public function malaysia()
+	{	
+		return view('seo_pages/malaysia');				
+	}
+	//RCAV1-172 - END
 	
 }
